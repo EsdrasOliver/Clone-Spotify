@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style/style.css" max-width="1440px">
+    <link rel="stylesheet" href="style/responsive.css" max-width="667px">
+
+    <!-- link do font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+    <title>Spotify</title>
+</head>
+<body>
+
+    <div class="image">
+        <header class="cabecalho">
+            <img src="img/logo.png" alt="Logo do Spotify">
+
+            <div class="dropdown">
+                <a href="#" onclick="abrirMenu()">  
+                    <img src="img/bar.png" alt="Menu hamburger">
+                </a>
+                <div class="submenu">
+                    <div class="btn-close">
+                        <img src="img/close.png" alt="Fechar" width="20px" height="20px" onclick="fecharMenu()">
+                    </div>
+                    <nav>
+                        <div class="conteudo">
+                            <a href="#">Premium</a>
+                            <a href="#">Ajuda</a>
+                            <a href="#">Baixar</a>
+                        </div>
+                        <p>|</p>
+                        <div class="login">
+                            <a href="#">Inscreva-se</a>
+                            <a href="#">Entrar</a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+
+        </header>
+
+        <main>
+            <div class="conteudo-principal">
+                <div class="container">
+                    <h1 class="titulo">Música para todos.</h1>
+                    <p>Milhões de música à sua escolha. E nem precisa de cartão de crédito.</p>
+                </div>
+                <button class="botao">
+                    OBTENHA O SPOTIFY FREE
+                </button>
+            </div>
+        </main>
+        
+    </div>
+
+    <footer class="rodape">
+
+        <div class="rodape-container">
+            <img src="img/logo.png" alt="Logo do Spotify" width="150px" height="60px">
+            <div class="lista">
+                <h3 class="lista-titulo">EMPRESA</h3>
+                <ul>
+                    <li>Sobre</li>
+                    <li>Empregos</li>
+                    <li>For the Record</li>
+                </ul>
+            </div>
+            <div class="lista">
+                <h3 class="lista-titulo">COMUNIDADE</h3>
+                <ul>
+                    <li>Para artistas</li>
+                    <li>Desenvolvedores</li>
+                    <li>Marcas</li>
+                    <li>Investidores</li>
+                    <li>Fornecedores</li>
+                </ul>
+            </div>
+            <div class="lista">
+                <h3 class="lista-titulo">LINKS ÚTEIS</h3>
+                <ul>
+                    <li>Ajuda</li>
+                    <li>Player da Web</li>
+                    <li>Aplicativos móvel grátis</li>
+                </ul>
+            </div>
+
+            <div class="redes-socias">
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-facebook-f"></i>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function abrirMenu() {
+            var submenu = document.querySelector('div.submenu')
+    
+            submenu.style.display = "flex"
+        }
+
+        function fecharMenu() {
+            var submenu = document.querySelector('div.submenu')
+    
+            submenu.style.display = "none"
+        }
+    </script>
+
+</body>
+</html>
