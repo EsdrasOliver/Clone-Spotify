@@ -10,8 +10,8 @@ Segue algumas imagens do clone do spotify
 
 ## Versão para desktop
 
-![App Screenshot](https://ibb.co/8zphbc4)
+![App Screenshot](https://www.facebook.com/photo/?fbid=1702453753441725&set=pcb.1702454576774976)
 
 ## Versão para mobile
 
-![App Screenshot](https://ibb.co/b5fJDY5)
+![App Screenshot](https://www.facebook.com/photo/?fbid=1702453950108372&set=pcb.1702454576774976)
