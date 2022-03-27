@@ -75,6 +75,7 @@ a:hover {
     background-image: url('../img/showcase.webp');
     background-size: cover;
     height: 900px;
+    background-position: center;
 }
 
 main {
