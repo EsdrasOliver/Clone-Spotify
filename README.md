@@ -10,8 +10,7 @@ Segue algumas imagens do clone do spotify
 
 ## Versão para desktop
 
-![spotify-desktop](https://www.facebook.com/photo/?fbid=1702453753441725&set=pcb.1702454576774976)
-
+![spotify-desktop](https://github.com/EsdrasOliver/clone-spotify/blob/main/img/spotify-desktop.png)
 ## Versão para mobile
 
 ![?fbid=1702453950108372&set=pcb.1702454576774976](https://www.facebook.com/photo/?fbid=1702453950108372&set=pcb.1702454576774976)
